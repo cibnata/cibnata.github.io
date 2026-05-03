@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>nataiii.com 反詐互動網站</title>
+  <style>
+    body {
+      font-family: system-ui, "Noto Sans TC", sans-serif;
+      margin: 0;
+      background: #f4f7fb;
+      color: #1f2937;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 64px 24px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: #0f3b68;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+      margin-top: 32px;
+    }
+    a.card {
+      display: block;
+      padding: 24px;
+      border-radius: 18px;
+      background: white;
+      text-decoration: none;
+      color: #1f2937;
+      box-shadow: 0 8px 24px rgba(15, 59, 104, 0.12);
+      border: 1px solid #dbeafe;
+    }
+    a.card:hover {
+      transform: translateY(-4px);
+      transition: 0.2s;
+      box-shadow: 0 12px 30px rgba(15, 59, 104, 0.18);
+    }
+    .title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #0f3b68;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>nataiii.com 反詐互動網站</h1>
+    <p>這裡整理反詐宣導、互動遊戲與記憶訓練網站，協助民眾認識常見詐騙手法與話術。</p>
+
+    <section class="cards">
+      <a class="card" href="/165_antifraud_cafe/">
+        <div class="title">165 反詐咖啡館</div>
+        <div>進入互動式反詐宣導網站。</div>
+      </a>
+
+      <a class="card" href="/anti_fraud_crush/">
+        <div class="title">反詐消消樂</div>
+        <div>透過遊戲記住常見詐騙手法。</div>
+      </a>
+
+      <a class="card" href="/165-antifraud-memory-game/">
+        <div class="title">反詐記憶卡</div>
+        <div>用記憶配對方式學習反詐話術。</div>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
